@@ -1,6 +1,10 @@
 {
   "short_name": "React App",
   "name": "Create React App Sample",
+  "predeploy": "npm run build",
+   "deploy": "gh-pages -d dist",
+  "homepage": "https://wesleymtx.github.io/deply-teste/",
+  
   "icons": [
     {
       "src": "favicon.ico",
